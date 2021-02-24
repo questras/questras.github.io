@@ -29,20 +29,28 @@ body {
     border-bottom: 1px solid #e5e5e5;
 }
 
-.nav-link {
+.l {
+  text-decoration: none;
+}
+
+.nav-link, .l {
   color: #e5e5e5;
 }
 
-.nav-link:active {
+.nav-link:active, .l:active {
   color: #e5e5e5;
 }
 
-.nav-link:visited {
+.nav-link:visited, .l:visited {
   color: #e5e5e5;
 }
 
-.nav-link:hover {
+.nav-link:hover, .l:hover {
   color: #727272;
+}
+
+li {
+  list-style-type: none;
 }
 
 .display-4 {
@@ -61,4 +69,8 @@ body {
 .h-250 { height: 250px; }
 @media (min-width: 768px) {
   .h-md-250 { height: 250px; }
+}
+
+#mainContainer {
+  text-align: center;
 }
